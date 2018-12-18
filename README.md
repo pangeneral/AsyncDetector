@@ -14,7 +14,7 @@ configuration:
 ```
 apkBasePath test-apk 
 ```
-## "test-apk" your apk dictionary path
+## "test-apk" is your apk dictionary path
 
 
 ```
