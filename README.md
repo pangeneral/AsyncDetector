@@ -23,5 +23,5 @@ After configuration, we can apply AsyncDetector by a simple command line instruc
 
 >java -jar asyncdetector.jar APK_NAME
 
-`APK_NAME` is the apke that you want to analyze.
+`APK_NAME` is the apk that you want to analyze. For example, "weixin.apk".
 
