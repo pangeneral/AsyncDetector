@@ -1,8 +1,4 @@
-//待分析的apk所在的根目录
 apkBasePath test-apk
-//apk反编译后的jimple文件存放目录
 jimpleBasePath jimple test-apk
-//android根目录
 androidPath
-//java根目录
 javaHome
