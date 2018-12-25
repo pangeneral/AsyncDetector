@@ -1,4 +1,3 @@
 apkBasePath test-apk
 jimpleBasePath jimple test-apk
 androidPath
-javaHome
