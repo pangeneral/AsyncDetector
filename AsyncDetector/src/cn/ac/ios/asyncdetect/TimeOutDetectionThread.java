@@ -67,9 +67,6 @@ public class TimeOutDetectionThread extends Thread {
 	}
 
 	public void killSelf() {
-		
-		FileUtil.deleteFile(mOutputFolder);
-		
 		String name = ManagementFactory.getRuntimeMXBean().getName();
 		String pid = name.split("@")[0];
 		String os = System.getProperty("os.name");
