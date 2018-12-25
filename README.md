@@ -2,7 +2,7 @@
 A flow, context and object-sensitive inter-procedural static analysis tool for misuse detection of AsyncTask
 
 # Obtaining AsyncDetector
-You can download AsyncDetector from <https://github.com/pangeneral/AsyncDetector/asyncdetector.jar>
+You can download AsyncDetector from <https://github.com/pangeneral/AsyncDetector/blob/master/asyncdetector.jar>
 
 # How to run AsyncDetector
 Before running AsyncDetector, we should set its running parameters in configuration file.
