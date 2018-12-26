@@ -69,6 +69,10 @@ public class DoInBackgroundMethodSummary extends AbstractMethodSummary {
 				UnitInfo headerUnitInfo = getUnitInfo(unitInfo.mLoopHeaderUnit);
 				headerUnitInfo.isCancelled = true;
 			}
+			if( mLoopHeaderList.contains(unit) ){
+				UnitInfo headerUnitInfo = getUnitInfo(unit);
+				headerUnitInfo.isCancelled = true;
+			}
 		}
 		for (Unit unit : mLoopHeaderList) {
 			UnitInfo unitInfo = getUnitInfo(unit);
