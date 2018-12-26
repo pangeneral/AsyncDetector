@@ -14,7 +14,7 @@ In `path_configuration.txt`, we should set three parameters: the root directory 
 An example of `path_configuration.txt` is as following:
 
     apkBasePath test-apk  
-    jimpleBasePath jimple test-apk
+    jimpleBasePath jimple\\test-apk
     androidPath D:\\download\\soot-path\\android-platforms-master\\
 
 Obviously, the root directory of apk under analysis is `test-apk`, the root directory of jimple file is `jimple\test-apk` and the android platform path is `D:\\download\\soot-path\\android-platforms-master\\`.
